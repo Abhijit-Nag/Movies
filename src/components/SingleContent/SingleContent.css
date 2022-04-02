@@ -1,0 +1,70 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Monteserrat", sans-serif;
+
+}
+
+.media:hover{
+    background-color: #1b2337;
+    color: black;
+    transition: linear 0.1s ;
+    transition-property: all;
+}
+
+@media (max-width: 550px) {
+    .media{
+    width : 46%;
+    
+}
+
+.subTitle{
+    font-size: 15px;
+}
+
+
+}
+
+.poster{
+    border-radius: 10px;
+}
+
+
+
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+
+}
+
+.subTitle{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3px;
+    padding: 0 2px;
+    margin: 5px;
+    color: wheat;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+.subTitle_info{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+
+
+    
+}
