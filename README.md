@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Link for the website is given below -->
+
+https://Abhijit-Nag.github.io/Movies
+
 ## Available Scripts
 
 In the project directory, you can run:
